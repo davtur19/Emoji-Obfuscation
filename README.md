@@ -12,12 +12,12 @@ Get parameter "💻"
 
 ## Example
 
-```php
+```plaintext
 https://website.example/⚡♓📧👢👢.php?💻=♓📧👢👢🅾 〰🅾®👢▶❗
 ```
 
 Output:
 
-```php
+```plaintext
 hello world!
 ```
