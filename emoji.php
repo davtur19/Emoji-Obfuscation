@@ -60,6 +60,8 @@ if(isset($_POST['alpha']) or isset($_POST['emoji']))
         '\'' => '💧',
         '"' => '💦',
         '.' => '⏺',
+        'ä' => '✂️',
+        '≠' => '🀄️',
     ];
 
 
@@ -79,7 +81,7 @@ if(isset($_POST['alpha']) or isset($_POST['emoji']))
 
 
         $out = str_replace($aEmoji, $eEmoji, $_POST['textEmoji']);
-        echo 'Alfabeto:' . PHP_EOL . $out;
+        echo 'Alphabet:' . PHP_EOL . $out;
     }
 
 }
